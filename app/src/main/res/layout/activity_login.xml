@@ -38,7 +38,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="20dp"
-            android:hint="name :">
+            android:hint="email :">
             <com.google.android.material.textfield.TextInputEditText
                 android:paddingStart="15dp"
                 android:paddingLeft="15dp"
@@ -85,18 +85,20 @@
             android:layout_height="wrap_content"></TextView>
 
     </LinearLayout>
+
     <TextView
         android:id="@+id/tvTitleLogin"
-        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layoutInput"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
+        android:fontFamily="@font/aclonica"
         android:text="LOGIN"
         android:textColor="#04115C"
-        android:layout_above="@+id/layoutInput"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"></TextView>
+        android:textSize="30sp"></TextView>
     <ImageView
-        android:background="@drawable/energy_is_our_life_logo_cir"
+        android:background="@drawable/energy_is_our_life_logo2"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
         android:layout_above="@id/tvTitleLogin"

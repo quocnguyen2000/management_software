@@ -80,7 +80,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"></com.google.android.material.textfield.TextInputEditText>
         </com.google.android.material.textfield.TextInputLayout>
-
         <Button
             android:id="@+id/btnRegister"
             android:textColor="#fff"
@@ -108,13 +107,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
         android:text="REGISTER"
+        android:fontFamily="@font/aclonica"
         android:textColor="#04115C"
         android:layout_above="@+id/layoutInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"></TextView>
     <ImageView
         android:layout_marginTop="10dp"
-        android:background="@drawable/energy_is_our_life_logo"
+        android:background="@drawable/energy_is_our_life_logo1"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
         android:layout_above="@id/tvTitleRegister"
